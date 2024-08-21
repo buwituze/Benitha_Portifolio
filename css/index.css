@@ -2,7 +2,7 @@
     margin: 0;
 }
 body {
-   background-color: black;
+   background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
     height: 90%;
@@ -15,17 +15,17 @@ body {
     padding-left: 40px; 
 }
 .logo i{
-    color: rgb(40, 133, 136);
+    color: orange;
     padding-top: 22px;
     font-size: 20px;
 }
 .logo h2 {
     padding-top: 17px;
     font-size:25px;
-    color: white;
+    color: black;
 }
 .logo h2 span {
-    color: rgb(60, 176, 180);
+    color: orange;
 }
 .logo {
     float: left;   
@@ -45,11 +45,11 @@ body {
 }
 .link a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .link a:hover {
     border-radius: 5px;
-    color: rgb(48, 161, 231);
+    color: rgb(7,7,65);
 }
 .list ul {
     list-style: none;
@@ -63,24 +63,25 @@ body {
     padding-top: 16px;
 }
 .navbar {
-    background-color: black;
+    background-color: white;
     /* box-shadow: 0 2px 0 0 rgba(48, 161, 231, 0.068); */
     padding-bottom: 70px;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
+    border-bottom: 1px solid #e7e6e6;
     height: 0px;
 }
 #home p {
-    color: white;
+    color: black;
     font-family: roboto;
     font-weight: 300;
     font-size: larger;
 }
 
 #home p strong {
-    color: rgb(48, 161, 231);
+    color: orange;
 
     font-weight: 500;
     font-size: xx-large;
@@ -88,7 +89,7 @@ body {
 .Introduction {
     margin-top: 120px;
     padding-top: 50px;
-    padding-left: 13%;
+    padding-left: 12%;
 
     width: 47%;
     padding-bottom: 150px;
@@ -100,25 +101,25 @@ body {
     border-radius: 4px;
     margin-top: 40px;
     margin-right: 200px;
-    margin-left: 150px;    
+    margin-left: 70px;    
 }
 .image {
-    background-color: rgb(93, 97, 139);
+    background-color: orange;
     position: absolute;
-    top: 17%;
-    left: 60%;
+    top: 13%;
+    left: 55%;
     margin-top: 70px;
-    width: 30%;
-    height: 50%;
-    border-radius: 70% 30% 70% 30%;
+    width: 36%;
+    height: 70%;
+    border-radius: 50% 30% 70% 30%;
 }
-
+/* 
 .image:before {
     position: absolute;
     content: '';
     top: -8px;
     left: -5px;
-    background: linear-gradient( 5deg, blue, rgb(48, 161, 231), rgb(0, 255, 0),  rgb(50, 50, 221), rgb(0, 132, 255));
+    background: linear-gradient( 45deg, rgb(7,7,65), rgb(0, 255, 0), orange);
     background-size: 400%;
     filter: blur(5px);
     width:calc(100% + 14px);
@@ -136,13 +137,17 @@ body {
         background-position: 400% 0;
     }
     
-}
+} */
 
 
 .image img {
     position: absolute;
-    top: 3%;
-    left: 25%;
+    top: -7%;
+    left: 23%;
+    width: 300px;
+    height: 80vh;
+    /* border-radius: 50% 30% 70% 30%;
+    animation: animate 10s linear infinite; */
     /* transform: rotate(45deg); */
 }
 .spans {
@@ -154,16 +159,16 @@ body {
     gap: 15%;
 }
 .spans a i {
-    color: rgb(48, 161, 231);
+    color: rgb(22, 12, 119);
     font-size: 25px;
-    background-color: rgba(109, 108, 108, 0.589);
+    background-color: rgba(250, 250, 250, 0.589);
     border-radius: 100%;
-    border: 2px solid rgb(48, 161, 231);
+    border: 2px solid rgb(22, 12, 119);
     padding: 10px 10px;
 }
 .spans a i:hover {
-    color: white;
-    background-color: rgb(48, 161, 231);
+    color: orange;
+    background-color: rgb(22, 12, 119);
 }
 .buttons {
     font-size: 15px;
@@ -172,17 +177,18 @@ body {
 
 }
 .buttons button {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: rgb(41, 40, 40);
     border: none;
-    border: 2px solid white;
+    border: 2px solid rgb(22, 12, 119);
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
     font-size: 14px;
   }
   .buttons button:hover {
-    background-color: rgb(46, 46, 46);
+    background-color: rgb(22, 12, 119);
+    color: orange;
   }
 @media screen and (max-width:830px) {
    
