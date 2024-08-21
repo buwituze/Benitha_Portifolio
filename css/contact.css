@@ -1,10 +1,14 @@
 .contact {
     padding-left: 14%;
     padding-right: 30%;
+    padding-bottom: 5%;
+    background-color: #000319;
   }
-
+.contactme {
+    margin-bottom: -95px;
+  }
 .contact h3 {
-    color: rgb(48, 161, 231);
+    color: orange;
     text-align: center;
     padding-top: 7%;
     padding-bottom: 10%;
@@ -22,7 +26,7 @@ form label {
     color: #838282cc;
 }
 form h4 {
-    color: rgb(48, 161, 231);
+    color: orange;
     padding-bottom: 7%;
     padding-left: 20%;
   }
@@ -31,24 +35,24 @@ form input {
     width: 230px;
     height: 30px;
     border-radius: 10px;
-    background-color: #222;
-    border: 1px solid #444343cc;
+    background-color: #ffffff33;
+    border: 1px solid #5f5e5ecc;
     padding-left: 10px;
   }
 
 form textarea {
     width: 230px;
     height: 100px;
-    background-color: #222;
-    border: 1px solid #444343cc;    
+    background-color: #ffffff33;
+    border: 1px solid #5f5e5ecc;    
     border-radius: 10px;
     padding-left: 10px;
   }
 
 form button {
-    background-color: rgb(48, 161, 231);
+    background-color: orange;
     color: white;
-    margin-left: 24%;
+    margin-left: 33%;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -65,20 +69,22 @@ form button {
 .me {
     display: flex;
     gap: 100px;
+    background-color: #000319;
 }
 
 .contacttexts {
   padding-top: 16%;
   font-size: 16px;
+  background-color: #000319;
 }
 .contacttexts h5 {
-  color: rgb(48, 161, 231);
+  color: orange;
     padding-bottom: 5%;
     font-size: 17px;
 
 }
 .contacttexts span {
-  color: rgb(115, 190, 236);
+  color: orange;
     /* padding-bottom: 5%; */
     font-size: 17px;
 

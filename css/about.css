@@ -9,7 +9,7 @@
 
 .about-section h3 {
     font-size: 40px;
-    color: rgb(20, 20, 117);
+    color: #032d60;
     text-align: center;
     padding-top: 4%;
     font-family: system-ui,
@@ -19,6 +19,35 @@
 .generalabout {
   background-color: rgba(192, 246, 246, 0.15);
 }
+.deformed-circle {
+  width: 150px;
+  height: 150px;
+  background: rgba(7, 7, 65, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  float: right;
+  top: 750px;
+  left: -40px;
+  transform: rotate(30deg) scale(1.2);
+  /* clip-path: polygon(50% 0%, 100% 25%, 80% 100%, 20% 100%, 0% 25%); */
+}
+.dots-cluster {
+  position: absolute;
+  top: 800px;
+  left: 90%;
+  transform: rotate(340deg) scale(1.2);
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  background-color: rgba(255, 166, 0, 0.589);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+}
+
+
 .aboutme{
     width: 70%;
     padding-left: 12%;
@@ -44,7 +73,7 @@
   padding-bottom: 5%;
 }
 .missionabout h3{
-    color: black;
+    color: rgb(7, 7, 65);
 }
 .missioncontent {
     width: 80%;
@@ -97,7 +126,7 @@
 }
 .productcategories-section h3 {
     font-size: xx-large;
-    color: white;
+    color: orange;
     text-align: center;
     padding-top: 3%;
     padding-bottom: 4%;

@@ -5,11 +5,10 @@
     padding-bottom: 5%;
 }
 .references h3 {
-    color: black;
+    color: #032d60;
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
-  
     font-size: xx-large;
 }
 .individualtestimonial {
@@ -37,7 +36,7 @@
 
 }
 .personinfo h5 {
-    color: rgb(48, 161, 231);
+    color: orange;
 }
 .personinfo h4 {
     font-size: 18px;
