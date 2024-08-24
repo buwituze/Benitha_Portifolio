@@ -108,3 +108,13 @@
     background-color: rgb(7, 7, 65);
     color: orange;
 }
+
+.moreprojects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
