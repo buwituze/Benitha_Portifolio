@@ -1,0 +1,67 @@
+.logo{
+    display: flex;
+    gap: 10px;
+    padding-left: 40px; 
+}
+.logo i{
+    color: orange;
+    padding-top: 22px;
+    font-size: 20px;
+}
+.logo h2 {
+    padding-top: 17px;
+    font-size:25px;
+    color: black;
+}
+.logo h2 span {
+    color: orange;
+}
+.logo {
+    float: left;   
+}
+.logo p {
+    color: white;
+    font-family: merienda;
+    font-weight: 300;
+    font-size: medium;
+    padding-left: 17px;
+}
+.list ul li {
+    font-family: Roboto;
+    font-weight: 400;
+    border: none;
+    font-size: larger;
+    
+}
+.link a {
+    text-decoration: none;
+    color: black;
+}
+.link a:hover {
+    border-radius: 5px;
+    color: rgb(7,7,65);
+}
+.list ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+}
+.list {
+    float: right;
+    padding-right: 10%;
+    padding-top: 16px;
+    cursor: pointer;
+}
+.navbar {
+    background-color: white;
+    /* box-shadow: 0 2px 0 0 rgba(48, 161, 231, 0.068); */
+    padding-bottom: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #e7e6e6;
+    height: 0px;
+    cursor: pointer;
+}

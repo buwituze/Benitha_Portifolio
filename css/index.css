@@ -5,77 +5,10 @@ body {
    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
-.logo{
-    display: flex;
-    gap: 10px;
-    padding-left: 40px; 
-}
-.logo i{
-    color: orange;
-    padding-top: 22px;
-    font-size: 20px;
-}
-.logo h2 {
-    padding-top: 17px;
-    font-size:25px;
-    color: black;
-}
-.logo h2 span {
-    color: orange;
-}
-.logo {
-    float: left;   
-}
-.logo p {
-    color: white;
-    font-family: merienda;
-    font-weight: 300;
-    font-size: medium;
-    padding-left: 17px;
-}
-.list ul li {
-    font-family: Roboto;
-    font-weight: 400;
-    border: none;
-    font-size: larger;
-    
-}
-.link a {
-    text-decoration: none;
-    color: black;
-}
-.link a:hover {
-    border-radius: 5px;
-    color: rgb(7,7,65);
-}
-.list ul {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-    padding: 10px;
-}
-.list {
-    float: right;
-    padding-right: 10%;
-    padding-top: 16px;
-    cursor: pointer;
-}
-.navbar {
-    background-color: white;
-    /* box-shadow: 0 2px 0 0 rgba(48, 161, 231, 0.068); */
-    padding-bottom: 70px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    border-bottom: 1px solid #e7e6e6;
-    height: 0px;
-    cursor: pointer;
-}
+
 #home p {
     color: black;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -85,7 +18,6 @@ body {
 
 #home p strong {
     color: orange;
-
     font-weight: 600;
     font-size: 40px;
 }
@@ -103,31 +35,62 @@ body {
 }
 .main {
     display: flex;
+    gap: 2px;
     padding-top: 10px;
     border-radius: 4px;
     margin-top: 40px;
-    margin-right: 200px;
-    margin-left: 70px;    
+    margin-right: 250px;
+    margin-left: 100px;    
 }
 .image {
     background-color: orange;
     position: absolute;
-    top: 13%;
-    left: 55%;
-    margin-top: 70px;
-    width: 36%;
+    top: 12%;
+    left: 53%;
+    margin-top: 90px;
+    width: 33%;
     height: 70%;
     border-radius: 50% 30% 70% 30%;
+    animation: wave 9s infinite ease-in-out;
+}
+
+@keyframes wave {
+  0%, 100% {
+    border-radius: 50% 30% 70% 30%;
+  }
+  10% {
+    border-radius: 60% 40% 50% 40%;
+  }
+  20% {
+    border-radius: 40% 50% 60% 30%;
+  }
+  30% {
+    border-radius: 55% 45% 50% 35%;
+  }
+  40% {
+    border-radius: 50% 60% 40% 50%;
+  }
+  50% {
+    border-radius: 45% 50% 55% 40%;
+  }
+  60% {
+    border-radius: 60% 50% 40% 55%;
+  }
+  70% {
+    border-radius: 50% 40% 60% 50%;
+  }
+  80% {
+    border-radius: 55% 35% 50% 45%;
+  }
+  90% {
+    border-radius: 40% 55% 45% 60%;
+  }
 }
 .image img {
-    position: absolute;
-    top: -47%;
-    left: -20%;
-    width: 550px;
-    height: 110vh;
-    /* border-radius: 50% 30% 70% 30%;
-    animation: animate 10s linear infinite; */
-    /* transform: rotate(45deg); */
+    width: 460px;
+    height: 93vh;
+    margin-top: -125px;
+    margin-left: -120px;
 }
 .spans {
     position: absolute;

@@ -41,9 +41,10 @@
 }
 .projectimage img {
     border-radius: 5px;
-    width: 270px;
-    height: 200px;
-    padding: 4% 0 0 0;
+    border: 1px solid orange;
+    width: 280px;
+    height: 216px;
+    margin: 2% 0 0 0;
 }
 
 .projecttext h5{
@@ -77,14 +78,14 @@
     margin-bottom: 6%;
 }
 
-.project:hover .projecttext h5 {
+/* .project:hover .projecttext h5 {
    
     color: orange;
 }
 .project:hover .projectbutton button {
    
     color: orange;
-}
+} */
 
 .projectshowmore {
     align-items: center;
@@ -107,6 +108,9 @@
 .projectshowmore button:hover {
     background-color: rgb(7, 7, 65);
     color: orange;
+}
+#furtherprojects {
+    display: none;
 }
 
 .moreprojects {

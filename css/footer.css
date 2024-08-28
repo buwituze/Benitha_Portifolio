@@ -38,14 +38,21 @@
     height: 150px;
     padding-top: 20px;
   }
+  ul a li {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
 
 .bottompart ul li a {
     text-decoration: none;
     color: white;
     font-size: 16px;
   }
+
 .bottompart ul{
     list-style: none;
+    text-decoration: none;
 }
 .bottompart h5{
     padding-top: 10%;

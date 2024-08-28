@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Benitha's Portifolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./CSS/index.css">
     <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./CSS/services.css">
@@ -25,14 +27,15 @@
             </div>
             <nav>
             <div class="list">
-                <ul class="link">
-                  <a href="#home"><li>Home</li></a>
-                  <a href="#about"><li>About </li></a>
-                  <a href="#services"><li>Services</li></a>
-                    <li><a href="#resumesection">Resume</a></li>
-                    <li><a href="#contact">Contact me</a></li>
-                </ul>
-            </div>
+               <ul class="link">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#resumesection">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+               </ul>            
+              </div>
           </nav>
             </div>
     </header>
@@ -101,11 +104,13 @@
                 <span class="dot"></span>        </div>
                 <div class="aboutme">
                   <div>
-                    <p>
-                      I'm currently pursuing a Bachelor of Software Engineering at African Leadership University (ALU), driven by a passion for creating impactful solutions through technology. My mission is to leverage my skills to improve access to healthcare, particularly for Rwandan citizens in rural areas. I believe that technology has the power to bridge gaps and bring essential services closer to those who need them most.
+                    <p data-aos="fade-right" data-aos-duration="1000">
+                      I am passionate about developing creative and advanced solutions for prominent challenges hindering the community's sustainable socio-economic development. Currently, I am a Mastercard Foundation scholar, pursuing a Bachelor of Science with Honours in Software Engineering at the African Leadership University (ALU). Besides this official degree, I'm also in training as a Salesforce Admin after obtaining a Salesforce Associate Credential.
                     </p>
+
+                    <p data-aos="fade-right" data-aos-duration="1000">I pursue diligence and Supremacy.</p>
                   </div>
-                  <div class="aboutimage">
+                  <div class="aboutimage" data-aos="fade-left" data-aos-duration="1000">
                     <img src="./images/Benitha.jpeg" alt="" />
                   </div>
                 </div>
@@ -124,19 +129,19 @@
                     </div>
                     <div class="missionlist">
     
-                        <div class="singlemission">
+                        <div class="singlemission" data-aos="fade-up" data-aos-duration="500">
                           <div> <h5><i class='bx bx-laptop' ></i> Innovating for Impact</h5></div>
                             <p>My goal is to design and develop technology that not only solves
                                 problems but also creates opportunities for growth and empowerment in Rwanda.</p>
                         </div>
     
-                        <div class="singlemission">
+                        <div class="singlemission" data-aos="fade-up" data-aos-duration="500">
                             <div> <h5><i class='bx bx-health' ></i> Empowering Rural Healthcare Through Technology</h5></div>
                               <p>My mission is to create innovative tech 
                                 solutions that enhance healthcare access for Rwandan citizens, particularly in remote areas.</p>
                           </div>
     
-                          <div class="singlemission">
+                          <div class="singlemission" data-aos="fade-up" data-aos-duration="500">
                             <div> <h5><i class='bx bxs-offer'></i> Bridging the Digital Divide</h5></div>
                               <p>I aim to leverage my software engineering skills to 
                                 bring essential services closer to underserved communities, 
@@ -445,8 +450,8 @@
 
             <section class="resume" id="resumesection">
               <section>
-                <section class="projectssection">
-                  <h3>Check out <span>my Projects</span></h3>
+                <section class="projectssection" id="projects">
+                  <h3>Check out my <span>Projects</span></h3>
 
                   <section class="allprojects">
 
@@ -454,7 +459,7 @@
 
                       <div class="project" id="projectone" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
                         <div class="projectimage">
-                          <img src="./images/project1" alt="">
+                          <img src="./images/newbloomwebapp.png" alt="">
                         </div>
                         <div class="projecttext">
                           <h5>Bloom web app</h5>
@@ -464,13 +469,13 @@
                           </p>
                         </div>
                         <div class="projectbutton" >
-                          <button>Check it out <i class='bx bx-right-arrow-alt'></i></button>
+                          <a href="https://bloom-project.netlify.app/"><button>Check it out <i class='bx bx-right-arrow-alt'></i></button></a>
                         </div>
                       </div>
                     
                       <div class="project" id="projectone" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
                         <div class="projectimage">
-                          <img src="./images/project1" alt="">
+                          <img src="./images/virtualcarefinalimg.jpg" alt="">
                         </div>
                         <div class="projecttext">
                           <h5>VirtualCare</h5>
@@ -481,67 +486,71 @@
                           </p>
                         </div>
                         <div class="projectbutton">
-                          <button>Check it out <i class='bx bx-right-arrow-alt'></i></button>
+                          <a href=""><button>Check it out <i class='bx bx-right-arrow-alt'></i></button></a>
                         </div>
                       </div>
                       <div class="project" id="projectone" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
                         <div class="projectimage">
-                          <img src="./images/project1" alt="">
+                          <img src="./images/restoomnifood.png" alt="">
                         </div>
                         <div class="projecttext">
-                          <h5>Resto</h5>
+                          <h5>Resto OmniFood</h5>
                           <p>
                             A restaurat wesite with a clean and modern design. Through this app customers can make reservation, view the restaurants menu and order food online.
                           </p>
                         </div>
                         <div class="projectbutton">
-                          <button>Check it out <i class='bx bx-right-arrow-alt'></i></button>
+                          <a href="https://benitha06.github.io/Resto-Omnifood/index.html"><button>Check it out <i class='bx bx-right-arrow-alt'></i></button></a>
                         </div>
                       </div>
-                      <div class="project" id="projectone">
+                      <div class="project" id="projectone" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
                         <div class="projectimage">
-                          <img src="./images/project1" alt="">
+                          <img src="./images/newsavenest.png" alt="">
                         </div>
                         <div class="projecttext">
-                          <h5>SaveMoneco</h5>
+                          <h5>SaveNest</h5>
                           <p>
-                            SavingMoneco is a saving app with essentaial features that allows users to create budget, track their expenses and receive alerts if they are above their budget or income. 
+                            SaveNest is a saving app with essentaial features that allows users to create budget, track their expenses and receive alerts if they are above their budget or income. 
                           </p>
                         </div>
                         <div class="projectbutton">
-                          <button>Check it out <i class='bx bx-right-arrow-alt'></i></button>
+                          <a href="https://savenest-app-eight.vercel.app/"><button>Check it out <i class='bx bx-right-arrow-alt'></i></button></a>
                         </div>
                       </div>
                     </section>
 
                     <div class="projectshowmore">
-                      <a href="#moreprojects"><button>Show More</button></a>
+                      <a href="#moreprojects"><button onclick="showmore()">Show More</button></a>
                     </div>
 
-                    <div class="furtherprojects">
+                    <div id="furtherprojects">
+
                       <section class="moreprojects" id="moreprojects">
-                        <div class="project" id="projectone">
+
+
+                        <div class="project" id="projectone" data-tilt data-tilt-glare data-tilt-max-glare="5">
                           <div class="projectimage">
-                            <img src="./images/project1" alt="">
+                            <img src="./images/drawapp.png" alt="">
                           </div>
                           <div class="projecttext">
-                            <h5>Bloom web app</h5>
+                            <h5>Draw</h5>
                             <p>
                               A web application that is aimed at providing a platform where Rwandan farmers can get most useful and streamlined
                               forming tools and overall knowledge from experts.
                             </p>
                           </div>
                           <div class="projectbutton">
-                            <button>Check it out <i class='bx bx-right-arrow-alt'></i></button>
+                            <a href="https://benitha06.github.io/draw/"><button>Check it out <i class='bx bx-right-arrow-alt'></i></button></a>
                           </div>
                         </div>
+
                       
-                        <div class="project" id="projectone">
+                        <div class="project" id="projectone" data-tilt data-tilt-glare data-tilt-max-glare="1">
                           <div class="projectimage">
-                            <img src="./images/project1" alt="">
+                            <img src="./images/agrocommerce.png" alt="">
                           </div>
                           <div class="projecttext">
-                            <h5>VirtualCare</h5>
+                            <h5>Agro-Commerce</h5>
                             <p>
                               An online doctor consultation web/mobile app.
                               Virtaul care is designed to help Rwandans access reliable dotors and their medical info in one trustworthy system.
@@ -549,37 +558,42 @@
                             </p>
                           </div>
                           <div class="projectbutton">
-                            <button>Check it out <i class='bx bx-right-arrow-alt'></i></button>
+                            <a href="https://honolinekamurerwa.github.io/Agro-Center/index.html"><button>Check it out <i class='bx bx-right-arrow-alt'></i></button></a>
                           </div>
                         </div>
-                        <div class="project" id="projectone">
+
+
+                        <div class="project" id="projectone" data-tilt data-tilt-glare data-tilt-max-glare="1">
                           <div class="projectimage">
-                            <img src="./images/project1" alt="">
+                            <img src="./images/wrkitassignment.png" alt="">
                           </div>
                           <div class="projecttext">
-                            <h5>Resto</h5>
+                            <h5>Workit App</h5>
+                            <p>
+                              on to their average income. The user can the track their expenses. SavingMoneco is designed to alert the users if they are above their budget or income.
+                            </p>
+                          </div>
+                          <div class="projectbutton">
+                            <a href="https://benitha06.github.io/Assignment/"><button>Check it out <i class='bx bx-right-arrow-alt'></i></button></a>
+                          </div>
+                        </div>
+
+
+                        <div class="project" id="projectone" data-tilt data-tilt-glare data-tilt-max-glare="1">
+                          <div class="projectimage">
+                            <img src="./images/css.svg" alt="">
+                          </div>
+                          <div class="projecttext">
+                            <h5>Dev CV</h5>
                             <p>
                               A restaurat wesite with a clean and modern design. Through this app customers can make reservation, view the restaurants menu and order food online.
                             </p>
                           </div>
                           <div class="projectbutton">
-                            <button>Check it out <i class='bx bx-right-arrow-alt'></i></button>
+                            <a href="https://benitha06.github.io/CV/"><button>Check it out <i class='bx bx-right-arrow-alt'></i></button></a>
                           </div>
                         </div>
-                        <div class="project" id="projectone">
-                          <div class="projectimage">
-                            <img src="./images/project1" alt="">
-                          </div>
-                          <div class="projecttext">
-                            <h5>SaveMoneco</h5>
-                            <p>
-                              An intuitive saving app. This app helps the user build a meaningful budget in relation to their average income. The user can the track their expenses. SavingMoneco is designed to alert the users if they are above their budget or income.
-                            </p>
-                          </div>
-                          <div class="projectbutton">
-                            <button>Check it out <i class='bx bx-right-arrow-alt'></i></button>
-                          </div>
-                        </div>
+
                       </section>
                     </div>
 
@@ -587,17 +601,16 @@
 
 
                   </section>
-
                
                 </section>
              
-              <section class="references">
+              <section class="references"  id="testimonials">
 
                 <h3>Some Nice Words</h3>
 
                 <div class="testimonials">
 
-                  <div class="individualtestimonial">
+                  <div class="individualtestimonial" data-aos="fade-up" data-aos-duration="1000">
                     <div class="person">
                       <div class="testimonialimg">
                         <img src="./images/Benitha.jpeg" alt="">
@@ -614,8 +627,8 @@
                      
                       <p>
                      
-                        A thoughtful collaborator who seamlessly blends creativity with technical expertise. 
-                        Brings a steady, focused approach to every task, ensuring success every time. 
+                        A dynamic problem-solver who consistently delivers innovative solutions with precision and skill. 
+                        Always brings clarity and efficiency to complex challenges.
                       </p>
 
                       <div class="lowerquote"><i class='bx bxs-quote-single-right'></i></div>
@@ -623,13 +636,13 @@
                     
                   </div>
 
-                  <div class="individualtestimonial">
+                  <div class="individualtestimonial" data-aos="fade-up" data-aos-duration="1000">
                     <div class="person">
                       <div class="testimonialimg">
                         <img src="./images/Benitha.jpeg" alt="">
                       </div>
                       <div class="personinfo">
-                        <h4>Uwicyubahiro Honorine</h4> <br>
+                        <h4>Eugene</h4> <br>
                         <h5>Administration Lead <br> 
                           <span>African Leadership University (ALU)</span></h5>
                       </div>
@@ -640,8 +653,8 @@
                      
                       <p>
                      
-                        A thoughtful collaborator who seamlessly blends creativity with technical expertise. 
-                        Brings a steady, focused approach to every task, ensuring success every time. 
+                        "A dedicated student who brings enthusiasm and creativity to every event and volunteer opportunity. 
+                        She approaches each task with a steady, focused mindset, consistently contributing to the success of every project.
                       </p>
 
                       <div class="lowerquote"><i class='bx bxs-quote-single-right'></i></div>
@@ -649,13 +662,14 @@
                     
                   </div>
 
-                  <div class="individualtestimonial">
+
+                  <div class="individualtestimonial" data-aos="fade-up" data-aos-duration="1000">
                     <div class="person">
                       <div class="testimonialimg">
                         <img src="./images/Benitha.jpeg" alt="">
                       </div>
                       <div class="personinfo">
-                        <h4>Uwicyubahiro Honorine</h4> <br>
+                        <h4>Claudine</h4> <br>
                         <h5>Administration Lead <br> 
                           <span>African Leadership University (ALU)</span></h5>
                       </div>
@@ -666,8 +680,33 @@
                      
                       <p>
                      
-                        A thoughtful collaborator who seamlessly blends creativity with technical expertise. 
-                        Brings a steady, focused approach to every task, ensuring success every time. 
+                        Balancing creativity with strategic thinking, she transforms ideas into impactful outcomes, 
+                        always demonstrating an unwavering commitment to excellence in every project.
+                      </p>
+
+                      <div class="lowerquote"><i class='bx bxs-quote-single-right'></i></div>
+                    </div>
+                    
+                  </div>
+
+                  <div class="individualtestimonial" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="person">
+                      <div class="testimonialimg">
+                        <img src="./images/Benitha.jpeg" alt="">
+                      </div>
+                      <div class="personinfo">
+                        <h4>Daniel</h4> <br>
+                        <h5>ALU Student & Administration Lead <br> 
+                          <span>African Leadership University (ALU)</span></h5>
+                      </div>
+                    </div>
+                    <div class="testimonialtext">
+
+                      <div class="upperquote"><i class='bx bxs-quote-single-left'></i></div>
+                     
+                      <p>
+                     
+                        With a meticulous eye for detail and a strong passion for quality, she bridges the gap between vision and execution, making her an exceptional team player.
                       </p>
 
                       <div class="lowerquote"><i class='bx bxs-quote-single-right'></i></div>
@@ -694,10 +733,7 @@
                     </div>
                     <div class="form">
                       <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-                        <!-- Honeypot field for spam prevention -->
-                        <input type="hidden" name="bot-field">
-                        <!-- Form name for Netlify -->
-                        <input type="hidden" name="form-name" value="contact">
+                      
                         
                         <h4>Connect with Me</h4>
                         
@@ -737,16 +773,34 @@
         <ul>
           <div class="sectionslist">
             <div>
-              <li>Home</li>
-              <li>About</li>
-              <li>Services</li>
-              <li>Projects</li>
+              <a href="#home">
+                <li>Home</li>
+              </a>
+              <a href="#about">
+                <li>About</li>
+              </a>
+              <a href="#services">
+                <li>Services</li>
+              </a>
+              <a href="#resumesection">
+                <li>Resume</li>
+              </a>
+             
             </div>
             <div>
             
-              <li>Resume</li>
-              <li>Blog</li>
-              <li>Contact Me</li>
+              <a href="#projects">
+                <li>Projects</li>
+              </a>   
+              <a href="#testimonials">
+                <li>References</li>
+              </a>          
+              <a href="">
+                <li>Blog</li>
+              </a>
+              <a href="#contact">
+                <li>Contact Me</li>
+              </a>
             </div>
           </div>
         </ul>
@@ -758,7 +812,7 @@
           <li>Contact: 0790100718</li>
           <li>Email: b.rutagengw@alustudent.com</li>
           <li>Location: Bumbogo, Kigali City, Rwanda</li>
-          <li>Mentor: ...</li>
+          <li>Mentor: Claudine</li>
         </ul>
       </div>
 
@@ -785,8 +839,12 @@
     </div>
   </section>
 </footer>
-           
 
 <script src="./js/vanilla-tilt.js"></script>
+<script src="./js/index.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
