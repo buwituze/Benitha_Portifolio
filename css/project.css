@@ -1,5 +1,5 @@
 .resume {
-    background-color: #222;
+    background-color: rgb(7, 7, 65);
 }
 
 .projectssection h3 {
@@ -29,7 +29,7 @@
 .project {
     width: 300px;
     /* height: 450px 020617; */
-    background-color: #222;
+    background-color: #080724;
     border-radius: 5px;
     border: 1px solid #313030;
     display: flex;
@@ -37,27 +37,34 @@
     align-items: center;
     justify-content: center; 
     text-align: center;
-   box-shadow: #313030 0px 0px 10px;
+   box-shadow: #313030 0px 0px 15px;
 }
 .projectimage img {
     border-radius: 5px;
-    border: 1px solid orange;
     width: 280px;
     height: 216px;
     margin: 2% 0 0 0;
 }
 
 .projecttext h5{
-    color: white;
-    font-size: 20px;
+    color: lavender;
+    font-size: 18px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: left;
+    text-decoration: none;
     padding-left: 20px;
     padding-right: 20px;
 }
+.projecttext a{
+    text-decoration: none;
+    
+}
+.projecttext h5:hover{
+    color: rgb(136, 195, 235);
+}
 .projecttext p{
-    color: #cccc;
+    color: #ccc;
     font-size: 16px;
     padding-top: 5px;
     text-align: left;
@@ -78,15 +85,6 @@
     margin-bottom: 6%;
 }
 
-/* .project:hover .projecttext h5 {
-   
-    color: orange;
-}
-.project:hover .projectbutton button {
-   
-    color: orange;
-} */
-
 .projectshowmore {
     align-items: center;
     display: flex;
@@ -96,18 +94,18 @@
 }
 
 .projectshowmore button {
-    background-color: white;
-    color: rgb(7, 7, 65);
+    background-color: rgb(7, 7, 65);
+    color: white;
     border: none;
-    /* border: 2px solid white; */
-    padding: 10px;
+    border: 1px solid white;
+    padding: 15px 40px;
     border-radius: 10px;
     cursor: pointer;
     font-size: 14px;
 }
 .projectshowmore button:hover {
-    background-color: rgb(7, 7, 65);
-    color: orange;
+    background-color: orange;
+    color: rgb(7, 7, 65);
 }
 #furtherprojects {
     display: none;
