@@ -19,7 +19,7 @@
 .deformed-circle {
   width: 150px;
   height: 150px;
-  background: rgba(7, 7, 65, 0.5);
+  background: rgba(7, 7, 65, 0.356);
   border-radius: 50%;
   position: absolute;
   float: right;
