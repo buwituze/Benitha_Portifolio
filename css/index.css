@@ -2,6 +2,7 @@
     margin: 0;
 }
 body {
+    flex-wrap: wrap;
    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
