@@ -38,6 +38,7 @@
     justify-content: center; 
     text-align: center;
    box-shadow: #313030 0px 0px 15px;
+   margin-bottom: 10px;
 }
 .projectimage img {
     border-radius: 5px;
